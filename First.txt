@@ -1,0 +1,11 @@
+**************************************
+echo "Enter number by seconds: " 
+
+read num
+
+s=$(( $num % 60))
+n=$(( $num /60))
+m=$(($num % 60))
+h=$(($num/60))
+
+echo "Equivalent period: $h : $m: $s"

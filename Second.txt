@@ -1,0 +1,14 @@
+******************************
+echo "Enter Degree in CELSIUS"
+
+read CEL
+
+f=$(($CEL*9))
+
+echo "$f"
+
+fA=$(( $f/5)) 
+
+fAH=$(($fA+32))
+
+echo "The Degree in FAHRENHEIT : $fAH"
